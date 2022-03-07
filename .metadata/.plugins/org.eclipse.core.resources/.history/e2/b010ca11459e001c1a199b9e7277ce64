@@ -1,0 +1,5 @@
+package com.jparepository.entities;
+
+public class User {
+
+}

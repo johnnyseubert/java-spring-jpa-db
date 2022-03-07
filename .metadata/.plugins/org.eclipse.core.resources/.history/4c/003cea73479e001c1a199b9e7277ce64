@@ -1,0 +1,22 @@
+package com.jparepository.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.jparepository.entities.User;
+import com.jparepository.repository.UserRepository;
+
+@RestController
+@RequestMapping(value = "/users")
+public class UserController {
+	
+	@GetMapping
+	public List<User> findAll(){
+		var result = repository.findAll();
+		return result;
+	}
+	
+}

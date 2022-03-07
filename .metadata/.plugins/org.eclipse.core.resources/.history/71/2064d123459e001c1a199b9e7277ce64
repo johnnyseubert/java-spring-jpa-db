@@ -1,0 +1,22 @@
+package com.jparepository.entities;
+
+public class User {
+	//properties
+	private Long id;
+	private String name;
+	private String email;
+	private double salary;
+
+	//constructors
+	public User() {
+
+	}
+	public User(Long id, String name, String email, double salary) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.email = email;
+		Salary = salary;
+	}
+
+}

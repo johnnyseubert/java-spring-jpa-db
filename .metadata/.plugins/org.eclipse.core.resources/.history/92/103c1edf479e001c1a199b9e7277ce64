@@ -1,0 +1,5 @@
+package com.jparepository.repositories;
+
+public interface UserRepository {
+
+}
